@@ -1,0 +1,27 @@
+.wrapper {
+    background: white;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    max-width: 70%;
+    width: 100%;
+    object-fit: contain;
+    background: black;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: black;
+    padding: 0 10px;
+}
+
+.commentSection {
+    overflow-y: scroll;
+    flex-grow: 1;
+}

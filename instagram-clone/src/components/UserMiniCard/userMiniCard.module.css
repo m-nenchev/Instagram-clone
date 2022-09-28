@@ -1,0 +1,25 @@
+.postHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.postHeaderMain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.postHeaderImgs {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #DEEFE1;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.span {
+    display: block;
+}

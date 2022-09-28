@@ -1,0 +1,44 @@
+.container {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #dbdbdb;
+    background: #fff;
+    z-index: 10;
+}
+
+.navContainer {
+    max-width: 975px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navLogo {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.navSearch {
+    padding: 5px 20px;
+    height: 32px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    background-color: #efefef;
+}
+
+.navActionsContainer {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.navAction {
+    margin-right: 15px;
+}

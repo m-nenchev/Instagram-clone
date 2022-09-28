@@ -1,0 +1,22 @@
+.wrapper {
+    width: 50%;
+    height: 70%;
+    background: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.title {
+    flex: 0.05;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    text-align: center;
+}
+
+.addPhoto {
+    flex: 0.95;
+    width: 100%;
+    text-align: center;
+}

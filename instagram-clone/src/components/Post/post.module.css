@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 470px;
+    border: 1px solid #DEEFE1;
+    border-radius: 15px;
+    margin: 15px 0;
+    background-color: #fff;
+}
+
+.imgWrapper {
+    background-color: black;
+}
+
+.postImg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.commentsWrapper {
+    padding: 0 10px;
+}
